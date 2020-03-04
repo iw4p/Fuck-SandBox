@@ -15,6 +15,7 @@
 		3CA86BA524103F22004E7ED2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CA86BA324103F22004E7ED2 /* LaunchScreen.storyboard */; };
 		3CA86BB024103FF3004E7ED2 /* SandBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA86BAF24103FF3004E7ED2 /* SandBox.m */; };
 		3CA86BB724104E47004E7ED2 /* Apps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA86BB624104E47004E7ED2 /* Apps.swift */; };
+		3CA86BBB241052BB004E7ED2 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA86BBA241052BB004E7ED2 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		3CA86BAF24103FF3004E7ED2 /* SandBox.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SandBox.m; sourceTree = "<group>"; };
 		3CA86BB124104042004E7ED2 /* SandBox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SandBox.h; sourceTree = "<group>"; };
 		3CA86BB624104E47004E7ED2 /* Apps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apps.swift; sourceTree = "<group>"; };
+		3CA86BBA241052BB004E7ED2 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				3CA86BB624104E47004E7ED2 /* Apps.swift */,
+				3CA86BBA241052BB004E7ED2 /* TableViewCell.swift */,
 				3CA86B9824103F21004E7ED2 /* AppDelegate.swift */,
 				3CA86B9A24103F21004E7ED2 /* SceneDelegate.swift */,
 				3CA86B9C24103F21004E7ED2 /* ViewController.swift */,
@@ -152,6 +155,7 @@
 				3CA86B9D24103F21004E7ED2 /* ViewController.swift in Sources */,
 				3CA86B9924103F21004E7ED2 /* AppDelegate.swift in Sources */,
 				3CA86BB724104E47004E7ED2 /* Apps.swift in Sources */,
+				3CA86BBB241052BB004E7ED2 /* TableViewCell.swift in Sources */,
 				3CA86B9B24103F21004E7ED2 /* SceneDelegate.swift in Sources */,
 				3CA86BB024103FF3004E7ED2 /* SandBox.m in Sources */,
 			);

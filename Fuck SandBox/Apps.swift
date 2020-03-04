@@ -7,7 +7,6 @@
 //
 
 import Foundation
-
 import UIKit
 
 
@@ -16,9 +15,9 @@ class Apps:NSObject{
     var name:String?
     var bundle:String?
     var type:String?
-    var version : Int?
+    var version : String?
 
-    init(name:String,bundle:String,type:String,version:Int) {
+    init(name:String,bundle:String,type:String,version:String) {
         self.name = name
         self.bundle = bundle
         self.type = type
