@@ -15,26 +15,32 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="gQf-ml-iCF">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="cqp-PK-5DL">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="MyCell" rowHeight="101" id="Aff-bQ-gHQ">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="101"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Aff-bQ-gHQ" id="xus-Wp-QtG">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="101"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="gQf-ml-iCF" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="7Iy-6Q-tG3"/>
-                            <constraint firstAttribute="bottom" secondItem="gQf-ml-iCF" secondAttribute="bottom" id="ClZ-nf-6jV"/>
-                            <constraint firstItem="gQf-ml-iCF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ai3-B9-5NZ"/>
-                            <constraint firstItem="gQf-ml-iCF" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="gvP-PC-rsB"/>
+                            <constraint firstItem="cqp-PK-5DL" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="4JQ-dk-Zjs"/>
+                            <constraint firstAttribute="bottom" secondItem="cqp-PK-5DL" secondAttribute="bottom" id="6Tl-16-qAO"/>
+                            <constraint firstItem="cqp-PK-5DL" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="VMQ-pB-hPF"/>
+                            <constraint firstItem="cqp-PK-5DL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="nSb-gQ-som"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="result" destination="gQf-ml-iCF" id="un6-Io-Vte"/>
+                        <outlet property="tableView" destination="cqp-PK-5DL" id="14g-wP-BcA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
