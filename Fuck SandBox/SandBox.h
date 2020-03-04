@@ -6,18 +6,11 @@
 //  Copyright © 2020 Nima Akbarzade. All rights reserved.
 //
 
-//#ifndef SandBox_h
-//#define SandBox_h
-//
-//
-//#endif /* SandBox_h */
 
 #import <Foundation/Foundation.h>
 
-@interface CustomObject : NSObject
+@interface SandBox : NSObject
 
-@property (strong, nonatomic) id someProperty;
-
-- (void) someMethod;
+- (void) retrieveData;
 
 @end

@@ -12,10 +12,8 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        var instanceOfCustomObject = CustomObject()
-        instanceOfCustomObject.someProperty = "Hello World"
-        print(instanceOfCustomObject.someProperty)
-        instanceOfCustomObject.someMethod()
+        let instanceOfCustomObject = SandBox()
+        instanceOfCustomObject.retrieveData()
         
     }
 

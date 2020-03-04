@@ -8,10 +8,10 @@
 
 #import "SandBox.h"
 
-@implementation CustomObject
+@implementation SandBox
 
-- (void) someMethod {
-    NSLog(@"SomeMethod Ran");
+- (void) retrieveData {
+    NSLog(@"Now you can see me");
 }
 
 
