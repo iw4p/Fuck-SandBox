@@ -11,6 +11,9 @@
 
 @interface SandBox : NSObject
 
-- (void) retrieveData;
+- (NSArray*) appsName;
+- (NSArray*) appsBundle;
+- (NSArray*) appsType;
+- (NSArray*) appsVersions;
 
 @end
